@@ -7,13 +7,12 @@ public class Student {
 	public String address;
 	
 	public void showStudentInfo() {
-		System.out.println(studentID + "학번 학생의 이름은 " + studentName + "이고, 주소는 " + address + "입니다.");
+		System.out.println("학번 : " + studentID + " 이름 : " + studentName + " 주소 : " + address);
 	}
 	
 	public String getStudentName() {
 		return studentName;
 	}
-	
 	public void setStudentName(String name) {
 		studentName = name;
 	}

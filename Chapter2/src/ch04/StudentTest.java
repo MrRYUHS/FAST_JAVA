@@ -4,20 +4,22 @@ public class StudentTest {
 
 	public static void main(String[] args) {
 
-		Student studentLee = new Student();
+		Student studentRyu = new Student();
+		studentRyu.studentID = 12345;
+		studentRyu.setStudentName("Ryu");
+		studentRyu.address = "대구";
 		
-		studentLee.studentID = 12345;
-		studentLee.setStudentName("Lee");
-		studentLee.address = "서울 강남구";
-		
-		studentLee.showStudentInfo();
+		studentRyu.showStudentInfo();
 		
 		Student studentKim = new Student();
-		studentKim.studentID = 54321;
+		studentKim.studentID = 67890;
 		studentKim.studentName = "Kim";
-		studentKim.address = "경기도 성남시";
+		studentKim.address = "칠곡";
 		
 		studentKim.showStudentInfo();
+		
+		System.out.println(studentRyu);
+		System.out.println(studentKim);
 	}
 
 }
