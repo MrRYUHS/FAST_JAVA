@@ -6,7 +6,9 @@ public class Student {
 	public String studentName;
 	public int grade;
 	
-	public Student() {}
+	public Student() {
+		this(123, "Ryu", 123);
+	}
 	
 	public Student(int studentNumber, String studentName, int grade) {
 		
