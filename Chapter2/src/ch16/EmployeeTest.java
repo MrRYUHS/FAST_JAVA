@@ -7,8 +7,8 @@ public class EmployeeTest {
 		Employee employeeRyu = new Employee();
 		employeeRyu.setEmployeeName("류형수");
 		
-		System.out.println(employeeRyu.serialNum);
-		System.out.println(Employee.serialNum);
+		System.out.println(employeeRyu.getSerialNum());
+		System.out.println(Employee.getSerialNum());
 		
 		Employee employeeKim = new Employee();
 		employeeKim.setEmployeeName("김혜린");
@@ -21,5 +21,4 @@ public class EmployeeTest {
 		System.out.println(employeeKang.getEmployeeName() + "님의 사번은 " + employeeKang.getEmployeeId());
 		
 	}
-
 }
