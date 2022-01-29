@@ -20,6 +20,7 @@ public class Employee {
 	
 	
 	public int getEmployeeId() {
+		serialNum=1000;
 		return employeeId;
 	}
 	public void setEmployeeId(int employeeId) {
