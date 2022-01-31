@@ -19,8 +19,7 @@ public class Employee {
 	}
 	
 	
-	public int getEmployeeId() {
-		serialNum=1000;
+	public int getEmployeeId() {		
 		return employeeId;
 	}
 	public void setEmployeeId(int employeeId) {
