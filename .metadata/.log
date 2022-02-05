@@ -1404,3 +1404,9 @@ user global configuration and to define the default location to store repositori
 not correct please set the HOME environment variable and restart Eclipse. Otherwise Git for Windows and
 EGit might behave differently since they see different configuration options.
 This warning can be switched off on the Team > Git > Confirmations and Warnings preference page.
+
+!ENTRY org.eclipse.help.base 2 0 2022-02-05 21:13:16.310
+!MESSAGE Unable to consume Lucene index from bundle 'org.eclipse.jdt.doc.user_3.15.1200.v20211124-1019 [215]'. The index should be rebuilt with Lucene 8.4.1
+
+!ENTRY org.eclipse.help.base 2 0 2022-02-05 21:13:16.320
+!MESSAGE Unable to consume Lucene index from bundle 'org.eclipse.platform.doc.user_4.22.0.v20211123-1648 [330]'. The index should be rebuilt with Lucene 8.4.1
