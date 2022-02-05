@@ -1,6 +1,6 @@
 package ch21;
 
-public class ObjectCopyTest {
+public class ObjectCopyTestA {
 
 	public static void main(String[] args) {
 
@@ -22,21 +22,7 @@ public class ObjectCopyTest {
 		for(int i=0; i<library.length; i++) {
 			copyLibrary[i].setAuthor(library[i].getAuthor());
 			copyLibrary[i].setTitle(library[i].getTitle());
-		}
-		
-		System.arraycopy(library, 0, copyLibrary, 0, 5);
-		
-		System.out.println("== library1 ==");
-		for(Book book : library) {
-			System.out.println(book);
-			book.showInfo();
-		}
-		
-		System.out.println("== copy library1 ==");
-		for(Book book : copyLibrary) {
-			System.out.println(book);
-			book.showInfo();
-		}
+		}		
 		
 		library[0].setAuthor("박완서");
 		library[0].setTitle("나목");
