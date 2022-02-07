@@ -20,5 +20,4 @@ public class StudentTest {
 		System.out.println("==========================================");
 		studentKim.showScoreInfo();
 	}
-
 }

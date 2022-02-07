@@ -6,4 +6,6 @@
     <fullyQualifiedTypeName name="java.lang.String"/>
     <fullyQualifiedTypeName name="java.util.Calendar"/>
     <fullyQualifiedTypeName name="ch19.CarFactory"/>
+    <fullyQualifiedTypeName name="ch21.Book"/>
+    <fullyQualifiedTypeName name="ch06.Student"/>
 </qualifiedTypeNameHistroy>
