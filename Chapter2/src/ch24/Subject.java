@@ -16,5 +16,5 @@ public class Subject {
 	}
 	public void setScorePoint(int scorePoint) {
 		this.scorePoint = scorePoint;
-	}
+	}		
 }

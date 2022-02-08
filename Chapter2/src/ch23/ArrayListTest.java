@@ -1,6 +1,7 @@
 package ch23;
 
 import java.util.ArrayList;
+
 import ch21.Book;
 
 public class ArrayListTest {
@@ -19,5 +20,4 @@ public class ArrayListTest {
 			library.get(i).showInfo();
 		}
 	}
-
 }
