@@ -9,7 +9,7 @@ public class VIPCustomer extends Customer{
 	public VIPCustomer() {
 		bonusRatio = 0.05;
 		salesRatio = 0.1;
-		customerGrade = "골드";
+		customerGrade = "다이아";
 	}
 
 	public String getAgentID() {

@@ -9,4 +9,5 @@
     <fullyQualifiedTypeName name="ch21.Book"/>
     <fullyQualifiedTypeName name="ch06.Student"/>
     <fullyQualifiedTypeName name="ch03.Customer"/>
+    <fullyQualifiedTypeName name="ch06.Animal"/>
 </qualifiedTypeNameHistroy>
