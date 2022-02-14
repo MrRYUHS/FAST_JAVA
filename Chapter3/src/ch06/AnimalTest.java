@@ -2,7 +2,7 @@ package ch06;
 
 import java.util.ArrayList;
 
-class Animal{
+class Animal{ //동물의 행동을 메소드로 
 	public void move() {
 		System.out.println("동물이 움직입니다.");
 	}
