@@ -35,7 +35,6 @@ class Tiger extends Animal{
 		System.out.println("호랑이가 사냥을 합니다.");
 	}
 }	
-
 class Eagle extends Animal{
 	
 	public void move() {
@@ -45,7 +44,6 @@ class Eagle extends Animal{
 		System.out.println("독수리가 양날개를 쭉 펴고 날아 다닙니다.");
 	}
 }
-
 class Puppy extends Animal{
 	
 	public void move() {
@@ -55,7 +53,6 @@ class Puppy extends Animal{
 		System.out.println("강아지는 귀엽습니다.");
 	}
 }
-
 public class AnimalTest {
 
 	public static void main(String[] args) {
@@ -80,8 +77,7 @@ public class AnimalTest {
 		for(Animal animal : animalList) {
 			animal.move();
 		}
-	}
-	
+	}	
 	public void moveAnimal(Animal animal) {
 		animal.move();
 	}
