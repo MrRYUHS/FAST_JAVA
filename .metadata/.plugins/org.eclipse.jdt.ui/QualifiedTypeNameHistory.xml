@@ -11,4 +11,9 @@
     <fullyQualifiedTypeName name="ch03.Customer"/>
     <fullyQualifiedTypeName name="ch06.Animal"/>
     <fullyQualifiedTypeName name="java.util.ArrayList"/>
+    <fullyQualifiedTypeName name="ch13.domain.userinfo.dao.UserinfoDao"/>
+    <fullyQualifiedTypeName name="java.io.FileInputStream"/>
+    <fullyQualifiedTypeName name="java.util.Properties"/>
+    <fullyQualifiedTypeName name="ch13.domain.userinfo.UserInfo"/>
+    <fullyQualifiedTypeName name="ch13.domain.userinfo.dao.mysql.UserinfoMysqlDao"/>
 </qualifiedTypeNameHistroy>
