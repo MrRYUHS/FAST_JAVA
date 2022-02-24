@@ -42,5 +42,4 @@ public class UserInfoClient {
 		userInfoDao.updateUserInfo(userInfo);
 		userInfoDao.deleteUserInfo(userInfo);
 	}
-
 }
