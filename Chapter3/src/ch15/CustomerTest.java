@@ -18,5 +18,4 @@ public class CustomerTest {
 		seller.sell();
 		seller.order();
 	}
-
 }
