@@ -16,4 +16,6 @@
     <fullyQualifiedTypeName name="java.util.Properties"/>
     <fullyQualifiedTypeName name="ch13.domain.userinfo.UserInfo"/>
     <fullyQualifiedTypeName name="ch13.domain.userinfo.dao.mysql.UserinfoMysqlDao"/>
+    <fullyQualifiedTypeName name="java.lang.reflect.Method"/>
+    <fullyQualifiedTypeName name="java.lang.reflect.Constructor"/>
 </qualifiedTypeNameHistroy>
