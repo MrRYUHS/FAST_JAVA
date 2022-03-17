@@ -26,5 +26,4 @@ public class BookTest {
 		String str = new String("test");
 		System.out.println(str.toString());
 	}
-
 }
