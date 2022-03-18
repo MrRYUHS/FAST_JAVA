@@ -8,14 +8,11 @@ class Book{
 		this.title=title;
 		this.author=author;
 	}
-
 	@Override
 	public String toString() {
 		return title + "," + author;
-	}
-	
+	}	
 }
-
 public class BookTest {
 
 	public static void main(String[] args) {
