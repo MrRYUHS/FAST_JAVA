@@ -31,5 +31,4 @@ public class EqualsTest {
 		Student copyStudent = (Student)std1.clone();
 		System.out.println(copyStudent);
 	}
-
 }
