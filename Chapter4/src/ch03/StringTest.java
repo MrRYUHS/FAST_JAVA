@@ -12,5 +12,4 @@ public class StringTest {
 		
 		System.out.println(System.identityHashCode(java));
 	}
-
 }

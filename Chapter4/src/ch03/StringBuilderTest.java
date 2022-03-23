@@ -16,5 +16,4 @@ public class StringBuilderTest {
 		String test = buffer.toString();
 		System.out.println(test);
 	}
-
 }
