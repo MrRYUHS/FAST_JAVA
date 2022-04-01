@@ -7,9 +7,9 @@ public class BookShelfTest {
 		Queue bookQueue = new BookShelf();
 		bookQueue.enQueue("농장1");
 		bookQueue.enQueue("토지2");
-		bookQueue.enQueue("농장3");
-		bookQueue.enQueue("바다4");
-		bookQueue.enQueue("토지5");
+		bookQueue.enQueue("곰3");
+		bookQueue.enQueue("사자4");
+		bookQueue.enQueue("호랑이5");
 		
 		System.out.println(bookQueue.getSize());
 		System.out.println(bookQueue.deQueue());
