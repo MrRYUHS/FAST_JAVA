@@ -5,8 +5,8 @@ public class BookShelfTest {
 	public static void main(String[] args) {
 
 		Queue bookQueue = new BookShelf();
-		bookQueue.enQueue("농장1");
-		bookQueue.enQueue("토지2");
+		bookQueue.enQueue("여우1");
+		bookQueue.enQueue("늑대2");
 		bookQueue.enQueue("곰3");
 		bookQueue.enQueue("사자4");
 		bookQueue.enQueue("호랑이5");
