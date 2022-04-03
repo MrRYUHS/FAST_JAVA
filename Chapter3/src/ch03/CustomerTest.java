@@ -20,8 +20,6 @@ public class CustomerTest {
 		customerKang.setCustomerName("강민주");
 		customerKang.setCustomerID(7777);
 		customerKang.bonusPoint = 50000;
-		System.out.println(customerKang.showCustomerInfo());
-		
-		
+		System.out.println(customerKang.showCustomerInfo());				
 	}
 }
