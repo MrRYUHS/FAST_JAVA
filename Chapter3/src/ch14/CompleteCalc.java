@@ -21,6 +21,5 @@ public class CompleteCalc extends Calculator{
 	@Override
 	public void description() {
 		System.out.println("CompleteCalc overriding");
-	}
-	
+	}	
 }
