@@ -17,7 +17,7 @@ public class BookTest {
 
 	public static void main(String[] args) {
 
-		Book book = new Book("리퍼", "로아");
+		Book book = new Book("리퍼1615", "로아1615");
 		System.out.println(book.toString());
 		
 		String str = new String("test");
