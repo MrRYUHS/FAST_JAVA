@@ -25,5 +25,4 @@ public class GenericMethod {
 		double size = GenericMethod.<Integer, Double>makeRectangle(p1,p2);
 		System.out.println(size);
 	}
-
 }
