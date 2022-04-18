@@ -11,10 +11,6 @@ public class MemberHashSet {
 		hashSet = new HashSet<>();
 	}
 	
-	public MemberHashSet(int size) {
-		hashSet = new HashSet<>(size);
-	}
-	
 	public void addMember(Member member) {
 		hashSet.add(member);
 	}
