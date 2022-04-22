@@ -22,5 +22,4 @@ public class ArrayListStreamTest {
 		System.out.println();
 		sList.stream().filter(s->s.length() >=5 ).forEach(s->System.out.println(s));
 	}
-
 }

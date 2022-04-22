@@ -19,5 +19,4 @@ public class IntArrayStreamTest {
 		int sum = Arrays.stream(arr).sum();
 		System.out.println(sum);
 	}
-
 }
